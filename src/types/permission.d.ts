@@ -1,0 +1,30 @@
+export type Role =
+  | 'admin'
+  | 'auctioneer'
+  | 'bidder'
+  | 'support';
+
+export type Permission =
+  | 'gestionar usuarios'
+  | 'gestionar roles y permisos'
+  | 'administrar subastas'
+  | 'gestionar reportes'
+  | 'administrar medios de pago'
+  | 'gestionar reclamos y disputas'
+  | 'visualizar historial de transacciones'
+  | 'crear y administrar subastas'
+  | 'configurar productos'
+  | 'definir reglas de participación'
+  | 'validar pujas'
+  | 'notificar ganadores'
+  | 'revisar reclamos'
+  | 'explorar subastas'
+  | 'realizar pujas'
+  | 'pagar productos ganados'
+  | 'reclamar premios'
+  | 'presentar reclamos'
+  | 'visualizar historial de compras y pujas'
+  | 'resolver reclamos'
+  | 'gestionar estados de disputas'
+  | 'revisar reportes de actividad y seguridad'
+  | 'solucionar problemas de acceso y pagos';
